@@ -1,36 +1,19 @@
 package com.epn;
 
+import java.io.IOException;
+
 public class Aplicación {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 
-		String texto = "if";
+		String texto = "String";
 		ALexico lex = new ALexico();
+		
+		lex.analizarCodigo();
 
-		for (int op = 1; op <=3; op++) {
-			switch (op) {
-			
-			case 1:
-				if (lex.esPalabraReservada(texto)) {
-					System.out.println("Es Palabra Reservada");
-				}
-				break;
-				
-			case 2:
-				if (lex.esCaracterEspecial(texto)) {
-					System.out.println("Es Caracter Especial");
-				}
-				break;
-				
-			case 3:
-				if (lex.esIdentificador(texto)) {
-					System.out.println("Es Identificador");
-				}
-				break;
+		
 
-			}
-
-		}
+		
 	}
 
 }
