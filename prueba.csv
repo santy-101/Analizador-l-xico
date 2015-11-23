@@ -1,0 +1,23 @@
+
+/ Es caractes especial
+* Es caractes especial
+* Es caractes especial
+/ Es caractes especial
+== Es operador compuesto
+- Es caractes especial
+9 Es literal
+; Es caractes especial
+true Es literal
+; Es caractes especial
+i Es identificador
+== Es operador compuesto
+1 Es literal
+; Es caractes especial
+9 Es literal
+; Es caractes especial
+Error en la linea: 1
+Error en la linea: 2
+Error en la linea: 3
+Error en la linea: 4
+Error en la linea: 4
+Error en la linea: 5
