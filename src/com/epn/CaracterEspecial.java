@@ -11,6 +11,14 @@ public class CaracterEspecial {
 		Collections.addAll(listaCaracterEspecial, "," , ";" , ":" , "(" , ")" , "[" , "]" , "{" , "}" , "+" , "-" , "*" , "/" , "<" , ">" , "=" , "!" , "&" , "$");
 	}
 	
+	public ArrayList<String> getListaCaracterEspecial() {
+		return listaCaracterEspecial;
+	}
+
+	public void setListaCaracterEspecial(ArrayList<String> listaCaracterEspecial) {
+		this.listaCaracterEspecial = listaCaracterEspecial;
+	}
+
 	public int esCaracterEspecial(String texto, char next) {
 		int res = -1;
 		if (listaCaracterEspecial.contains(texto + next))

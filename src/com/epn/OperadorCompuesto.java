@@ -10,6 +10,15 @@ public class OperadorCompuesto {
 		super();
 		Collections.addAll(listaOperadorCompuesto, "<=", ">=", "==", "!=", "&&", "||");
 	}
+	
+public ArrayList<String> getListaOperadorCompuesto() {
+		return listaOperadorCompuesto;
+	}
+
+	public void setListaOperadorCompuesto(ArrayList<String> listaOperadorCompuesto) {
+		this.listaOperadorCompuesto = listaOperadorCompuesto;
+	}
+
 public int esOperadorCompuesto(String texto, char next) {
 	int res = -1;
 	if (listaOperadorCompuesto.contains(texto + next))
