@@ -1,0 +1,45 @@
+
+int,palabra reservada
+double,identificador
+string6,error
+=,caractes especial
+6,int
++,caractes especial
+9,int
+;,caractes especial
+if,palabra reservada
+(,caractes especial
+a,identificador
+==,operador compuesto
+6,int
+),caractes especial
+{,caractes especial
+system.out.println,error
+(,caractes especial
+"El_valor_de_a_es:,error
+",error
++,caractes especial
+6,int
+),caractes especial
+;,caractes especial
+j,identificador
+=,caractes especial
+'a',char
+;,caractes especial
+STRING,error
+do,palabra reservada
+=,caractes especial
+"HOLA.MUNDO",string
+k,identificador
+=,caractes especial
+5,int
+;,caractes especial
+l,identificador
+=,caractes especial
+3.2,float
+;,caractes especial
+Error en la linea, 2
+Error en la linea, 5
+Error en la linea, 5
+Error en la linea, 5
+Error en la linea, 8
