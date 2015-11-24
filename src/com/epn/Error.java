@@ -14,7 +14,7 @@ public class Error {
 	
 	public int isError(String texto, char next)
 	{int result=-1;
-	String expresion = "[\\w|\\d|.|_|^|~|%|#|$|º|!|¿|¡|:|\\\\|?]*";
+	String expresion = "[\\w|\\d|.|_|^|~|%|#|$|º|!|¿|¡|:|\\\\|?|'|\"|\\/|/]*";
 	Pattern p = Pattern.compile(expresion);
 	Matcher matcher = p.matcher(texto+next);
 	Matcher matcher1 = p.matcher(texto);

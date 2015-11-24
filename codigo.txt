@@ -1,5 +1,10 @@
-/*doub1le */
-26aint_ ==-9;
-true¡;
-int\  int1 
-doub1le i==1;9;
+int double
+string6 = 6 +9;
+if (a == 6)
+{
+system.out.println("El_valor_de_a_es:"+6);
+j='a';
+//El siguiente comando muestra un texto
+STRING do = "HOLA.MUNDO"
+k=5;
+l=3.2; 
